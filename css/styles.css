@@ -234,13 +234,21 @@ p {
 /*HERO*/
 
 .hero {
-    height: 45rem;
+    font-size: 1.82rem;
+    height: 35rem;
     background-image: url(../img/hero.jpg);
     position: relative;
     /*En separaciones de contenido*/
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width:768px) {
+    .hero {
+        height: 45rem;
+        font-size: 2rem;
+    }
 }
 
 .hero::after {
@@ -263,8 +271,14 @@ p {
 }
 
 .contenedor-hero i {
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--primario);
+}
+
+@media(min-width:768px) {
+    contenedor-hero i {
+        font-size: 5rem;
+    }
 }
 
 
