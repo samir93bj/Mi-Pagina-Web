@@ -12,23 +12,44 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
 
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e867a5336c81b0012fbae71&product=inline-share-buttons&cms=website' async='async'></script>
+    <!--<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e867a5336c81b0012fbae71&product=inline-share-buttons&cms=website' async='async'></script>-->
 
 
+    <!--Fonts Redes sociales-->
+    <link rel="stylesheet" href="./css/font.css">
+    <!--Main Redes sociales-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--Stilos Principales-->
     <link rel="stylesheet" href="css/styles.css">
+    <!--Normalize-->
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
     <header class="header">
-        <nav>
+        <a href="#nav" class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal">
             <a href="index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a>
             <!--<a href="clientes.html">Clientes</a>-->
             <a href="proyectos.html">Proyectos</a>
             <a href="contactos.html">Contactenos</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
         </nav>
     </header>
+
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com/samir.mahmud2" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/explore" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UCdvC7LP7Em_Me6FezuQk-EA?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/samir.mhm/" class="icon icon-instagram" target="_blank"></a>
+    </div>
 
     <div class="hero">
         <div class="contenedor-hero">
@@ -76,7 +97,7 @@
                 </div>
                 <!--.contenedor-campos-->
                 <div class="enviar">
-                    <input class="boton" type="submit" value="Enviar">
+                    <input class="leer-mas" type="submit" value="Enviar">
                 </div>
             </form>
         </div>

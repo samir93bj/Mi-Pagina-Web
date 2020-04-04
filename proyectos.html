@@ -12,22 +12,42 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
 
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e867a5336c81b0012fbae71&product=inline-share-buttons&cms=website' async='async'></script>
-
+    <!--Fonts Redes sociales-->
+    <link rel="stylesheet" href="./css/font.css">
+    <!--Main Redes sociales-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--Stilos Principales-->
     <link rel="stylesheet" href="css/styles.css">
+    <!--Normalize-->
     <link rel="stylesheet" href="css/normalize.css">
+
 </head>
 
 <body>
     <header class="header">
-        <nav>
+        <a href="#nav" class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal">
             <a href="index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a>
             <!--<a href="clientes.html">Clientes</a>-->
             <a href="proyectos.html">Proyectos</a>
             <a href="contactos.html">Contactenos</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
         </nav>
     </header>
+
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com/samir.mahmud2" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/explore" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UCdvC7LP7Em_Me6FezuQk-EA?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/samir.mhm/" class="icon icon-instagram" target="_blank"></a>
+    </div>
 
     <div class="hero">
         <div class="contenedor-hero">
@@ -37,164 +57,144 @@
         </div>
     </div>
 
-    <div class="contenedor">
-        <main class="proyectos">
-            <h2>Nuestros Proyectos</h2>
-            <div class="contenedor-proyectos">
-                <ul class="Lista-proyectos">
-
-                    <li class="proyecto">
-                        <a href="#">
-
-                            <img src="./img/Proyectos/1-vue.jpg">
-                            <h3>Proyecto VUE js</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre Vue js</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+    <main class="contenedor-proyectos centrar">
+        <h2 class="centrar">Nuestros Proyectos</h2>
+        <div class="">
+            <ul class="Lista-proyectos contenedor">
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto VUE js</h3>
+                    </a>
+                    <h4>Informacion sobre Vue js</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
+                    </div>
 
 
-                    </li>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/2-Angular.jpg">
-                            <h3>Proyecto VUE js</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4 class="center">Informacion sobre Vue js</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto VUE js</h3>
+                    </a>
+                    <h4 class="">Informacion sobre Angular</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/3-redux.png">
-                            <h3>Proyecto VUE js</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre Vue js</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto VUE js</h3>
+                    </a>
+                    <h4>Informacion sobre Vue js</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/4-React.jpg">
-                            <h3>Proyecto VUE js</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre Vue js</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto VUE js</h3>
+                    </a>
+                    <h4>Informacion sobre Vue js</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/5-NodeJs.jpg">
-                            <h3>Proyecto NodeJS</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre NodeJS</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto NodeJS</h3>
+                    </a>
+                    <h4>Informacion sobre NodeJS</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/7-HTML.jpg">
-                            <h3>Proyecto HTML</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre HTML 5</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto HTML</h3>
+                    </a>
+                    <h4>Informacion sobre HTML 5</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/8-git.jpg">
-                            <h3>Proyecto GIT</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre GitHub</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto GIT</h3>
+                    </a>
+                    <h4>Informacion sobre GitHub</h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="proyecto">
-                        <a href="#">
-                            <img src="./img/Proyectos/9-TS.jpg">
-                            <h3>Proyecto TypeScript</h3>
-                        </a>
-                        <div class="descripcion-proyecto">
-                            <h4>Informacion sobre TypeScript</h4>
-                            <span>3/4/2020 - Samir Mahmud</span>
-                            <p>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y lo mantienen él y el resto de los miembros activos
-                                del equipo central provenientes de varias compañías como Netlify y Netguru...</p>
-                            <div class="botonera">
-                                <button class="leer-mas">Leer Más</button>
-                                <div class="sharethis-inline-share-buttons"></div>
-                            </div>
+                <li class="proyecto">
+                    <a href="#">
+                        <img src="./img/Proyectos/2-Angular-800x600.png">
+                        <h3>Proyecto TypeScript</h3>
+                    </a>
+                    <h4>Informacion sobre TS<br></h4>
+                    <div class="descripcion-proyecto">
+                        <p><span>3/4/2020 - Samir Mahmud --</span><br>Vue.js es un marco JavaScript de código abierto Modelo-vista-modelo de vista para construir interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You, y...</p>
+                        <div class="botonera">
+                            <button class="leer-mas">Leer Más</button>
+                            <div class="sharethis-inline-share-buttons"></div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </main>
-    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
     <footer class="footer-site ">
         <nav>
             <a href="index.html ">Inicio</a>
             <a href="nosotros.html ">Nosotros</a>
             <!--<a href="clientes.html ">Clientes</a>-->
-            <a href="proyectos.html ">Proyectos</a>
+            <a href="proyectos.html">Proyectos</a>
             <a href="contactos.html ">Contactenos</a>
         </nav>
         <div class="content-copyright ">
-            <div class="sharethis-inline-follow-buttons "></div>
             <p class="copyright ">Diseño y Desarrollo WEB - Todos los derechos reservados 2020 &copy;</p>
         </div>
 
